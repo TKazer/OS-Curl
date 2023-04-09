@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="OS-Curl">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="demo">
+      <UniqueIdentifier>{ffd3c51e-d1f7-4e07-b5dc-18721a80e3c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OS-Curl.h">
+      <Filter>OS-Curl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OS-Curl.cpp">
+      <Filter>OS-Curl</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>demo</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
